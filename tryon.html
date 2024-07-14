@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png"
+        href="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png"/>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra</title>
+
+    <link rel="stylesheet" href="tryon.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            justify-content: center; /* Center items horizontally */
+            /* align-items: center; Center items vertically */
+            padding: 20px;
+        }
+        .left-side, .right-side {
+            padding: 10px;
+        }
+        .left-side {
+            display: flex; /* Use flexbox to align items horizontally */
+            flex: 1;
+        }
+        .right-side {
+            flex: 1;
+            text-align: center;
+        }
+        .dress-image {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #ff4500;
+            color: white;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        .product-details {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .delivery-options {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .offers {
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <img src="https://raw.githubusercontent.com/ZeroOctave/ZeroOctave-Javascript-Projects/main/assets/Images/myntraclone/logo.png" alt="">
+            <!--myntra logo nav bar k bagal ka -->
+            <ul>
+                <li class="men">Men</li>
+                <li class="women">Women</li>
+                <li class="kids">Kids</li>
+                <li class="homeliving">Home&Living</li>
+                <li class="beauty">Beauty</li>
+                <li class="studio">Studio</li>
+            </ul>
+        </div>
+        <div class="right">
+            <input placeholder="Search for products, brands and more" class="desktop-searchBar" value=""
+                data-reactid="904">
+            <div class="icons">
+                <div class="profile">Profile</div>
+                <div class="wish">Wishlist</div>
+                <div class="bag">Bag</div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left-side">
+            <img src="images/airport/black.png" alt="Dress 1" class="dress-image">
+            <img src="images/airport/black2.jpg" alt="Dress 2" class="dress-image">
+        </div>
+        <div class="right-side">
+            <p><button class="button">Try On</button> </p>
+            <p><button class="button">Add to Bag</button></p>
+            <div class="delivery-options">
+                <h4>DELIVERY OPTIONS</h4>
+                <p>Enter PIN code to check delivery time & Pay on Delivery Availability</p>
+                <input type="text" placeholder="Enter PIN code">
+                <p>100% Original Products</p>
+                <p>Pay on delivery might be available</p>
+                <p>Easy 14 days returns and exchanges</p>
+            </div>
+            <div class="offers">
+                <h4 style="font-size: small;">BEST OFFERS</h4>
+                <ul style="font-size: smaller;" type="none">
+                    <li>Best Price: Rs. 822</li>
+                    <li>Applicable on: Orders above Rs. 1349 (only on first purchase)</li>
+                    <li>Coupon code: MYNTRA400</li>
+                    <li>Coupon Discount: Rs. 347 off (check cart for final savings)</li>
+                    <li><a href="#">View Eligible Products</a></li>
+                    <li>10% Instant Discount on ICICI Credit Card & Netbanking</li>
+                    <li>Min Spend ₹3,500; Max Discount ₹1,000. <a href="#">Terms & Condition</a></li>
+                    <li>10% Instant Discount on Kotak Bank Credit & Debit Cards</li>
+                    <li>Min Spend ₹3,000; Max Discount ₹1,000. <a href="#">Terms & Condition</a></li>
+                    <li>10% Instant Discount on BOBCARDs</li>
+                    <li>Min Spend ₹3,000; Max Discount ₹1,000. <a href="#">Terms & Condition</a></li>
+                    <li>Upto ₹500 Cashback on Paytm UPI</li>
+                    <li>Upto ₹500 Cashback. <a href="#">Terms & Condition</a></li>
+                    <li>Flat ₹100 Cashback on Payzapp Transactions.</li>
+                    <li>Min Spend ₹1500. <a href="#">Terms & Condition</a></li>
+                    <li>Flat ₹50 Cashback on Mobikwik Wallet.</li>
+                    <li>Min Spend ₹1500. <a href="#">Terms & Condition</a></li>
+                    <li>7.5% Discount on Myntra Kotak Credit Card.</li>
+                    <li>Max Discount Up to ₹750 on every spends. <a href="#">Terms & Condition</a></li>
+                    <li>EMI option available</li>
+                    <li>EMI starting from Rs.55/month <a href="#">View Plan</a></li>
+                </ul>
+            </div>
+            <div class="product-details">
+                <h4>PRODUCT DETAILS</h4>
+                <p style="font-size: small;">Blue floral printed opaque Casual shirt ,has a spread collar, button placket, 1 pocket, short regular sleeves, curved hem</p>
+                <h4>Size & Fit</h4>
+                <p style="font-size: small;">Brand Fit: Slim Fit</p>
+                <p style="font-size: small;">The model (height 6') is wearing a size 35</p>
+                <h4>Material & Care</h4>
+                <p style="font-size: small;">Cotton</p>
+                <p style="font-size: small;">Machine Wash</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
